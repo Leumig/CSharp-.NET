@@ -63,9 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjerciciosClase2", "EjerciciosClase2\EjerciciosClase2.csproj", "{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej3. El ejemplo universal", "Clase02 - Prog. Orientada a Objetos\Ej3. El ejemplo universal\Ej3. El ejemplo universal.csproj", "{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3. El ejemplo universal", "Clase02 - Prog. Orientada a Objetos\Ej3. El ejemplo universal\Ej3. El ejemplo universal.csproj", "{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1. Necesito un prestamo", "Clase02 - Prog. Orientada a Objetos\Ej1. Necesito un prestamo\Ej1. Necesito un prestamo.csproj", "{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Necesito un prestamo", "Clase02 - Prog. Orientada a Objetos\Ej1. Necesito un prestamo\Ej1. Necesito un prestamo.csproj", "{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4. Invento argentino", "Clase02 - Prog. Orientada a Objetos\Ej4. Invento argentino\Ej4. Invento argentino.csproj", "{BFC17036-5F44-4058-8E8C-3ADFB8426962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -177,6 +179,10 @@ Global
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -203,6 +209,7 @@ Global
 		{4C65D280-D69D-4CD2-9C42-817379099C02} = {FE3B0560-A16E-4BA4-90AF-DE0CC7319878}
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
+		{BFC17036-5F44-4058-8E8C-3ADFB8426962} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA931176-7374-4DCC-BE7C-E2E932B687CF}
