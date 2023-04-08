@@ -8,57 +8,42 @@ namespace Librería_de_Clases
 {
     public class Cuenta
     {
-        private string titular;
-        private int cantidad;
-
-        public Cuenta()
+        public string titulo;
+        public float cantidad;
+        public Cuenta(string titulo, float cantidad)
         {
-            titular = "NO CARGADO";
-        }
-
-        public Cuenta(string titular, int cantidad)
-        {
-            this.titular = titular;
+            this.titulo = titulo;
             this.cantidad = cantidad;
         }
 
-        public string Titular
+        public string Titulo { get => titulo; }
+        public float Cantidad { get => cantidad; }
+
+
+        public void Mostrar(Cuenta cuentaIngresada)
         {
-            get 
-            { 
-                return titular; 
-            } 
+            StringBuilder sb = new StringBuilder();
+
+            sb.AppendLine("=====================================================");
+            sb.AppendLine($"El título de la cuenta es: {cuentaIngresada.Titulo}");
+            sb.AppendLine($"El monto actual de la cuenta es: {cuentaIngresada.Cantidad}");
+            //Con los StringBuilder no se puede escribir haciendo uso de {0} {1} {2}, etc...
+            sb.AppendLine("=====================================================");
+
+            Console.WriteLine(sb);
         }
 
-        public int Cantidad
+        public void Ingresar(Cuenta cuentaIngresada, float montoIngresado)
         {
-            get
+            if (montoIngresado > 0)
             {
-                return cantidad;    
+                cantidad += montoIngresado;
             }
         }
 
-        static public string Mostrar(Cuenta cuentaIngresada)
+        public void Retirar(Cuenta cuentaIngresada, float montoIngresado)
         {
-            string titularIngresado = cuentaIngresada.Titular;
-            int cantidadIngresada = cuentaIngresada.Cantidad;
-
-            string texto = "| TITULAR: " + titularIngresado + " | CANTIDAD: "  + cantidadIngresada + " |";
-
-            return texto;
-        }
-
-        public void Ingresar(int cantidadIngresada)
-        {
-            if(cantidadIngresada >= 0)
-            {
-                cantidad = cantidadIngresada;
-            }
-        }
-
-        public void Retirar(int cantidadIngresada)
-        {
-            cantidad -= cantidadIngresada;
+            cantidad -= montoIngresado;
         }
 
     }

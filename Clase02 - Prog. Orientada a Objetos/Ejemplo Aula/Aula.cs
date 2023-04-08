@@ -14,7 +14,7 @@ namespace Ejemplo_Aula
         public Alumno[] listaAlumnos;
 
         private Aula(string comision, Materia materia, Profesor docente)
-        {
+        { 
             this.comision = comision;
             this.materia = materia;
             this.docente = docente;

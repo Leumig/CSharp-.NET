@@ -87,12 +87,20 @@ namespace Librería_de_Clases
 
         static public string EsMayorDeEdad(int edadIngresada)
         {
+            /*
             string texto = "ES MENOR DE EDAD";
             if(edadIngresada >= 18)
             {
                 texto = "ES MAYOR DE EDAD";
             }
-            return texto;
+            return texto;*/
+
+            if (edadIngresada >= 18)
+            {
+                return "ES MAYOR DE EDAD";
+            }
+            else
+                return "ES MENOR DE EDAD";
         }
 
     }

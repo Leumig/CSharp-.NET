@@ -59,6 +59,5 @@ namespace Ej1._Validador_de_rangos
             Console.WriteLine($"El número mínimo es: {numeroMinimo}");
             Console.WriteLine($"El promedio es: {promedioDeNumeros}");
         }
-
     }
 }
