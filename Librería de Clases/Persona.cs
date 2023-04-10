@@ -103,5 +103,42 @@ namespace Librería_de_Clases
                 return "ES MENOR DE EDAD";
         }
 
+
+
+        //Sobrecarga de operadores. Ejemplo con el == y el != 
+        public static bool operator == (Persona p1, Persona p2)
+        {
+            return p1.Dni == p2.Dni;
+        }
+
+        public static bool operator != (Persona p1, Persona p2)
+        {
+            return !(p1 == p2);
+        }
+        //Estos operadores sobrecargados == y != solo van a funcionar de esta forma
+        //cada vez que querramos comparar dos objetos de tipo Persona.
+        //Siempre deben ser public y static.
+
+        public static int operator + (int numero, Persona p1)
+        {
+            return p1.Dni + numero;
+        }
+        //En este caso sobrecargo el operador '+'.
+        //Sólo va a funcionar esta sobrecarga cuando yo haga:
+        //   int + Persona  , es decir, cuando sume un entero
+        //más un objeto de tipo Persona. No puede ser al revés ni con otro tipo.
+
+        //Tambien se pueden sobrecargar conversiones.
+
+        /*public static explicit operator int(Persona p)
+        {
+            return p.Dni;
+        }*/
+
+        public static implicit operator int(Persona p)
+        {
+            return p.Dni;
+        }
+
     }
 }

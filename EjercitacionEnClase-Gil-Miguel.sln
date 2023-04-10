@@ -67,7 +67,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3. El ejemplo universal",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Necesito un prestamo", "Clase02 - Prog. Orientada a Objetos\Ej1. Necesito un prestamo\Ej1. Necesito un prestamo.csproj", "{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej4. Invento argentino", "Clase02 - Prog. Orientada a Objetos\Ej4. Invento argentino\Ej4. Invento argentino.csproj", "{BFC17036-5F44-4058-8E8C-3ADFB8426962}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4. Invento argentino", "Clase02 - Prog. Orientada a Objetos\Ej4. Invento argentino\Ej4. Invento argentino.csproj", "{BFC17036-5F44-4058-8E8C-3ADFB8426962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase04 - Sobrecargas", "Clase04 - Sobrecargas", "{28A2F85B-AEF2-4951-8278-2C68BA65F807}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1. Sumador", "Clase04 - Sobrecargas\Ej1. Sumador\Ej1. Sumador.csproj", "{38BA994F-158E-4271-895B-19E0C64170A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,10 @@ Global
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BA994F-158E-4271-895B-19E0C64170A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BA994F-158E-4271-895B-19E0C64170A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BA994F-158E-4271-895B-19E0C64170A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BA994F-158E-4271-895B-19E0C64170A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -210,6 +218,7 @@ Global
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
+		{38BA994F-158E-4271-895B-19E0C64170A2} = {28A2F85B-AEF2-4951-8278-2C68BA65F807}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA931176-7374-4DCC-BE7C-E2E932B687CF}
