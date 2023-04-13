@@ -7,12 +7,6 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int edad;
-
-            edad = Console.ReadLine();
-
-
-
 
 
         }

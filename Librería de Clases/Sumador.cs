@@ -11,7 +11,6 @@ namespace Librería_de_Clases
     {
         private int cantidadSumas;
 
-
         public Sumador()
         {
             this.cantidadSumas = 0;

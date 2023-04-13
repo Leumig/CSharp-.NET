@@ -53,8 +53,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4. Lo hacemos Buffet", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3. Ahora hay que atender tambien", "Clase05 - Colecciones\Ej3. Ahora hay que atender tambien\Ej3. Ahora hay que atender tambien.csproj", "{5BFCB638-160F-46BF-BA90-642EA98CA462}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vista", "Ejemplo de Forms\Vista\Vista.csproj", "{ECF9AF80-36E3-4870-B19B-428CE848CE19}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase09 - Polimorfismo", "Clase09 - Polimorfismo", "{FE3B0560-A16E-4BA4-90AF-DE0CC7319878}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Sobre-sobrescribiendo esas advertencias", "Clase09 - Polimorfismo\Ej1. Sobre-sobrescribiendo esas advertencias\Ej1. Sobre-sobrescribiendo esas advertencias.csproj", "{4C65D280-D69D-4CD2-9C42-817379099C02}"
@@ -71,7 +69,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4. Invento argentino", "C
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase04 - Sobrecargas", "Clase04 - Sobrecargas", "{28A2F85B-AEF2-4951-8278-2C68BA65F807}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej1. Sumador", "Clase04 - Sobrecargas\Ej1. Sumador\Ej1. Sumador.csproj", "{38BA994F-158E-4271-895B-19E0C64170A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Sumador", "Clase04 - Sobrecargas\Ej1. Sumador\Ej1. Sumador.csproj", "{38BA994F-158E-4271-895B-19E0C64170A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I01. Numeros locos", "Clase05 - Colecciones\I01. Numeros locos\I01. Numeros locos.csproj", "{EE7AFFE3-62AD-4555-8880-F595F240CFDB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I02. Numeros locos II", "Clase05 - Colecciones\I02. Numeros locos II\I02. Numeros locos II.csproj", "{9BCD12CD-DA53-4462-9DE9-8900DF7D125B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase06 - WindowsForm", "Clase06 - WindowsForm", "{B8AFD510-100B-4C12-A20A-777CE129A267}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerFormulario", "Clase06 - WindowsForm\PrimerFormulario\PrimerFormulario.csproj", "{7C1E2794-58FF-4F15-843B-1DC4D5713494}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -159,10 +165,6 @@ Global
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ECF9AF80-36E3-4870-B19B-428CE848CE19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECF9AF80-36E3-4870-B19B-428CE848CE19}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECF9AF80-36E3-4870-B19B-428CE848CE19}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECF9AF80-36E3-4870-B19B-428CE848CE19}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C65D280-D69D-4CD2-9C42-817379099C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C65D280-D69D-4CD2-9C42-817379099C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C65D280-D69D-4CD2-9C42-817379099C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -191,6 +193,18 @@ Global
 		{38BA994F-158E-4271-895B-19E0C64170A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38BA994F-158E-4271-895B-19E0C64170A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38BA994F-158E-4271-895B-19E0C64170A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE7AFFE3-62AD-4555-8880-F595F240CFDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE7AFFE3-62AD-4555-8880-F595F240CFDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE7AFFE3-62AD-4555-8880-F595F240CFDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE7AFFE3-62AD-4555-8880-F595F240CFDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCD12CD-DA53-4462-9DE9-8900DF7D125B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCD12CD-DA53-4462-9DE9-8900DF7D125B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCD12CD-DA53-4462-9DE9-8900DF7D125B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCD12CD-DA53-4462-9DE9-8900DF7D125B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C1E2794-58FF-4F15-843B-1DC4D5713494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C1E2794-58FF-4F15-843B-1DC4D5713494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C1E2794-58FF-4F15-843B-1DC4D5713494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C1E2794-58FF-4F15-843B-1DC4D5713494}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -219,6 +233,9 @@ Global
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{38BA994F-158E-4271-895B-19E0C64170A2} = {28A2F85B-AEF2-4951-8278-2C68BA65F807}
+		{EE7AFFE3-62AD-4555-8880-F595F240CFDB} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
+		{9BCD12CD-DA53-4462-9DE9-8900DF7D125B} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
+		{7C1E2794-58FF-4F15-843B-1DC4D5713494} = {B8AFD510-100B-4C12-A20A-777CE129A267}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA931176-7374-4DCC-BE7C-E2E932B687CF}
