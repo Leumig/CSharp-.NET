@@ -9,7 +9,8 @@ namespace Ej3._Los_primos
         Validar que el dato ingresado por el usuario sea un número.
         Volver a pedir el dato hasta que sea válido o el usuario ingrese "salir".
         Si ingresa "salir", cerrar la consola.
-        Al finalizar, preguntar al usuario si desea volver a operar. Si la respuesta es afirmativa, iterar. De lo contrario, cerrar la consola.*/    
+        Al finalizar, preguntar al usuario si desea volver a operar. Si la respuesta es afirmativa, iterar.
+        De lo contrario, cerrar la consola.*/    
         static void Main(string[] args)
         {
             string valorIngresadoString;

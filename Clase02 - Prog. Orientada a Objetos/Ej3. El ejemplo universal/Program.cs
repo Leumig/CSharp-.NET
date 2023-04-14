@@ -2,6 +2,9 @@
 
 namespace Ej3._El_ejemplo_universal
 {
+    /*Ejercicio I03 - El ejemplo universal
+    Consigna
+    Crear una aplicación de consola y una biblioteca de clases que contenga la clase Estudiante*/
     internal class Program
     {
         static void Main(string[] args)

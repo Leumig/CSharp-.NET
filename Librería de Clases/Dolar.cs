@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 
 namespace Billete
 {
+    //Esta clase corresponde al ejercicio 'Cotizador'
     public class Dolar
     {
         private double cantidad;
@@ -25,7 +26,7 @@ namespace Billete
 
         static Dolar()
         {
-            cotzRespectoDolar = 0;
+            cotzRespectoDolar = 1;
         }
 
         public double GetCantidad()
@@ -38,24 +39,20 @@ namespace Billete
             return cotzRespectoDolar;
         }
 
-        /*public static explicit operator Euro(Dolar d)
+        public static explicit operator Euro(Dolar d)
         {
-            Euro e = new Euro(GetCotizacion());
-
-
-
-            return Euro(GetCotizacion());
-
-        }*/
+            return new Euro(d.cantidad / Euro.GetCotizacion());
+        }
 
         public static explicit operator Pesos(Dolar d)
         {
-            return
-
-
+            return new Pesos(d.cantidad * Dolar.GetCotizacion());
         }
 
-
+        public static implicit operator Dolar(double d)
+        {
+            return new Dolar(d);
+        }
 
         public static bool operator == (Dolar d, Euro e)
         {
@@ -89,22 +86,22 @@ namespace Billete
 
         public static Dolar operator - (Dolar d, Euro e)
         {
-            return new Dolar(d.GetCantidad() - e.GetCantidad());
+            return d.GetCantidad() - e.GetCantidad();
         }
 
         public static Dolar operator - (Dolar d, Pesos p)
         {
-            return new Dolar(d.GetCantidad() - p.GetCantidad());
+            return d.GetCantidad() - p.GetCantidad();
         }
 
         public static Dolar operator + (Dolar d, Euro e)
         {
-            return new Dolar(d.GetCantidad() + e.GetCantidad());
+            return d.GetCantidad() + e.GetCantidad();
         }
 
         public static Dolar operator + (Dolar d, Pesos p)
         {
-            return new Dolar(d.GetCantidad() + p.GetCantidad());
+            return d.GetCantidad() + p.GetCantidad();
         }
     }
 }

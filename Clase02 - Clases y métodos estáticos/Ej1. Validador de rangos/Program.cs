@@ -1,8 +1,13 @@
 ﻿using Librería_de_Clases_Validadoras;
 using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ej1._Validador_de_rangos
 {
+    /*Ejercicio I01 - Validador de rangos
+    Consigna
+    Realizar una clase llamada Validador que posea un método estático llamado Validar*/
+
     internal class Program
     {
         static void Main(string[] args)

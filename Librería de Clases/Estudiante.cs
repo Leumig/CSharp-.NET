@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde al ejercicio 'El ejemplo universal'
     public class Estudiante
     {
         private string apellido;

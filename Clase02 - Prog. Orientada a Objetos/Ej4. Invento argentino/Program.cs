@@ -3,6 +3,9 @@ using Librería_de_Clases;
 
 namespace Ej4._Invento_argentino
 {
+    /*Ejercicio I04 - Invento argentino
+    Consigna
+    En un proyecto de biblioteca de clases, crear la clase Boligrafo.*/
     internal class Program
     {
         static void Main(string[] args)

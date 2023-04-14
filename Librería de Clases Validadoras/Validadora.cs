@@ -76,7 +76,7 @@ namespace Librería_de_Clases_Validadoras
         //Este método esta mal por varios motivos. En primer lugar, el clean code.
         //Tenemos que aprender a atomizar el código. Este método 'ValidarEdad' es poco reutilizable.
         //Lo correcto es usar un método más general como el 'ValidarNumérico', etc.
-        //También esta mal porque le estamos pasando un tipo Persona entero, en vés de
+        //También esta mal porque le estamos pasando un tipo Persona entero, en vez de
         //solo pasarle el atributo que vamos a usar. Lo correcto sería pasarle un int persona.edad.
         //
         //public static bool ValidarEdad(Persona persona)

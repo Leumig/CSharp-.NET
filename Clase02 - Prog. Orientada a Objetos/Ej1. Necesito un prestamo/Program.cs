@@ -3,6 +3,9 @@ using Librería_de_Clases;
 
 namespace Ej1._Necesito_un_prestamo
 {
+    /*Ejercicio I01 - Creo que necesito un préstamo
+    Consigna
+    Crear una aplicación de consola y una biblioteca de clases que contenga la clase Cuenta.*/
     internal class Program
     {
         static void Main(string[] args)

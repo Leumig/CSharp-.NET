@@ -3,6 +3,9 @@ using System;
 
 namespace Ej2._Cuantas_primaveras_tenes
 {
+    /*Ejercicio I02 - ¿Vos cuántas primaveras tenés?
+    Consigna
+    Crear una aplicación de consola y una biblioteca de clases que contenga la clase Persona.*/
     internal class Program
     {
         static void Main(string[] args)

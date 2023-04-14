@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde a los ejercicios de la Maquina Expendedora
     public class Producto
     {
         private string nombre;

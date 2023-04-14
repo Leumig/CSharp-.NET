@@ -10,7 +10,8 @@ namespace PrimerFormulario
     {
         private string nombre;
         private int legajo;
-        
+        private string materiaFavorita;
+
         public Persona()
         {
             Nombre = "NO CARGADO";
@@ -24,11 +25,14 @@ namespace PrimerFormulario
 
         public string Nombre { get => nombre; set => nombre = value; }
         public int Legajo { get => legajo; set => legajo = value; }
+        public string Materia { get => materiaFavorita; set => materiaFavorita = value; }
 
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.Append($"NOMBRE: {Nombre} || LEGAJO: {Legajo}");
+            sb.AppendLine($"NOMBRE: {Nombre}");
+            sb.AppendLine($"LEGAJO: {Legajo}");
+            sb.AppendLine($"MATERIA: {Materia}");
 
             return sb.ToString();
         }

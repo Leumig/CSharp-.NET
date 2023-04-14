@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde al ejercicio 'Invento argentino'
     public class Boligrafo
     {
         private const short cantidadTintaMaxima = 100;

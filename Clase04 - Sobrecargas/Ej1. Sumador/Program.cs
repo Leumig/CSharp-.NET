@@ -3,6 +3,9 @@ using System;
 
 namespace Ej1._Sumador
 {
+    /*Ejercicio I01 - Sumador
+    Consigna
+    Crear un proyecto de tipo biblioteca de clases y agregar la clase Sumador.*/
     internal class Program
     {
         static void Main(string[] args)

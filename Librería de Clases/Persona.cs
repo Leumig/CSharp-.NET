@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde al ejercicio 'Cuantas primaveras tenes'
     public class Persona
     {
         private string nombre;

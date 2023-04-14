@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde al ejercicio 'Sumador'
     public class Sumador
     {
         private int cantidadSumas;

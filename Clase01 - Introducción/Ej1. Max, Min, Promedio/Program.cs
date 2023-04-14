@@ -1,13 +1,13 @@
 ﻿using System;
 
 namespace Ej1._Max__Min__Promedio
-{
+{           
+    /*Ejercicio I01 - Máximo, mínimo y promedio
+    Consigna
+    Ingresar 5 números por consola, guardándolos en una variable escalar.
+    Luego calcular y mostrar: el valor máximo, el valor mínimo y el promedio.*/
     internal class Program
     {
-        /*Ejercicio I01 - Máximo, mínimo y promedio
-        Consigna
-        Ingresar 5 números por consola, guardándolos en una variable escalar.
-        Luego calcular y mostrar: el valor máximo, el valor mínimo y el promedio.*/
         static void Main(string[] args)
         {
             string numeroIngresadoString;

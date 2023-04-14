@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Librería_de_Clases
 {
+    //Esta clase corresponde al ejercicio 'Necesito un prestamo'
     public class Cuenta
     {
         public string titulo;

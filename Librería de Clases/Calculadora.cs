@@ -8,6 +8,7 @@ namespace Librería_de_Clases
 {
     public static class Calculadora
     {
+        //Esta clase corresponde al ejercicio 'Calculadora'
         public static int Calcular(int primerOperando, int segundoOperando, string operacionMatematica)
         {
             int resultadoOperacion;

@@ -2,6 +2,11 @@
 
 namespace I01._Numeros_locos
 {
+    /*Ejercicio I01 - Números locos
+    Consigna
+    Crear una aplicación de consola que cargue 20 números enteros
+    (positivos y negativos) distintos de cero de forma aleatoria utilizando la clase Random.*/
+
     internal class Program
     {
         static void Main(string[] args)

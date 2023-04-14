@@ -4,6 +4,11 @@ using System;
 
 namespace Ej4._Calculadora
 {
+    /*Ejercicio I04 - La calculadora
+    Consigna
+    Realizar un programa que permita realizar operaciones matemáticas
+    simples (suma, resta, multiplicación y división).*/
+
     internal class Program
     {
         static void Main(string[] args)
