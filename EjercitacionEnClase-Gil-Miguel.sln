@@ -83,6 +83,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I02. Registrate", "Clase06 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2. Cotizador", "Clase04 - Sobrecargas\Ej2. Cotizador\Ej2. Cotizador.csproj", "{BD1E072C-F274-438D-879D-DD9BF040D0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C01. Cotizador desktop", "Clase06 - WindowsForm\C01. Cotizador desktop\C01. Cotizador desktop.csproj", "{F2107314-4C74-414B-9A1B-31C8F3BEB244}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{BD1E072C-F274-438D-879D-DD9BF040D0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD1E072C-F274-438D-879D-DD9BF040D0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD1E072C-F274-438D-879D-DD9BF040D0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2107314-4C74-414B-9A1B-31C8F3BEB244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2107314-4C74-414B-9A1B-31C8F3BEB244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2107314-4C74-414B-9A1B-31C8F3BEB244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2107314-4C74-414B-9A1B-31C8F3BEB244}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -250,6 +256,7 @@ Global
 		{7C1E2794-58FF-4F15-843B-1DC4D5713494} = {B8AFD510-100B-4C12-A20A-777CE129A267}
 		{39BDED7D-4701-4B14-93D2-BAD935893BD4} = {B8AFD510-100B-4C12-A20A-777CE129A267}
 		{BD1E072C-F274-438D-879D-DD9BF040D0FC} = {28A2F85B-AEF2-4951-8278-2C68BA65F807}
+		{F2107314-4C74-414B-9A1B-31C8F3BEB244} = {B8AFD510-100B-4C12-A20A-777CE129A267}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA931176-7374-4DCC-BE7C-E2E932B687CF}

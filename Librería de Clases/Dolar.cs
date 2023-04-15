@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Common;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -8,45 +9,40 @@ using System.Threading.Tasks;
 
 namespace Billete
 {
-    //Esta clase corresponde al ejercicio 'Cotizador'
+    //Esta clase corresponde al ejercicio 'Cotizador' y 'Cotizador desktop'
     public class Dolar
     {
         private double cantidad;
         private static double cotzRespectoDolar;
 
-        private Dolar()
-        {
-            this.cantidad = 0;
-        }
-
-        public Dolar(double cantidad) :this()
+        public Dolar(double cantidad)
         {
             this.cantidad = cantidad;
+            cotzRespectoDolar = 1;
         }
 
-        static Dolar()
+        public Dolar(double cantidad, double cotizacion) : this(cantidad)
         {
-            cotzRespectoDolar = 1;
+            cotzRespectoDolar = cotizacion;
         }
 
         public double GetCantidad()
         {
             return this.cantidad;
         }
-
-        public static double GetCotizacion()
+        public void SetCantidad(double cantidad)
         {
-            return cotzRespectoDolar;
-        }
-
-        public static explicit operator Euro(Dolar d)
-        {
-            return new Euro(d.cantidad / Euro.GetCotizacion());
+            this.cantidad = cantidad;
         }
 
         public static explicit operator Pesos(Dolar d)
         {
-            return new Pesos(d.cantidad * Dolar.GetCotizacion());
+            return new Pesos(d.cantidad / Pesos.GetCotizacionStatic());
+        }
+
+        public static explicit operator Euro(Dolar d)
+        {
+            return new Euro(d.cantidad / Euro.GetCotizacionStatic());
         }
 
         public static implicit operator Dolar(double d)
@@ -54,54 +50,44 @@ namespace Billete
             return new Dolar(d);
         }
 
-        public static bool operator == (Dolar d, Euro e)
-        {
-            return d.GetCantidad() == e.GetCantidad();
-        }
-
-        public static bool operator != (Dolar d, Euro e)
-        {
-            return !(d.GetCantidad() == e.GetCantidad());
-        }
-
-        public static bool operator ==(Dolar d, Pesos p)
-        {
-            return d.GetCantidad() == p.GetCantidad();
-        }
-
-        public static bool operator !=(Dolar d, Pesos p)
-        {
-            return !(d.GetCantidad() == p.GetCantidad());
-        }
-
         public static bool operator ==(Dolar d1, Dolar d2)
         {
-            return d1.GetCantidad() == d2.GetCantidad();
+            return d1.cantidad == d2.cantidad;
         }
 
         public static bool operator !=(Dolar d1, Dolar d2)
         {
-            return !(d1.GetCantidad() == d2.GetCantidad());
+            return !(d1 == d2);
         }
 
-        public static Dolar operator - (Dolar d, Euro e)
+        public static Dolar operator +(Dolar d, Pesos p)
         {
-            return d.GetCantidad() - e.GetCantidad();
+            return d + (Dolar)p;
         }
 
-        public static Dolar operator - (Dolar d, Pesos p)
+        public static Dolar operator +(Dolar d, Euro e)
         {
-            return d.GetCantidad() - p.GetCantidad();
+            return d + (Dolar)e;
         }
 
-        public static Dolar operator + (Dolar d, Euro e)
+        public static Dolar operator -(Dolar d, Pesos p)
         {
-            return d.GetCantidad() + e.GetCantidad();
+            return d - (Dolar)p;
         }
 
-        public static Dolar operator + (Dolar d, Pesos p)
+        public static Dolar operator -(Dolar d, Euro e)
         {
-            return d.GetCantidad() + p.GetCantidad();
+            return d - (Dolar)e;
+        }
+
+        public static Dolar operator +(Dolar d1, Dolar d2)
+        {
+            return new Dolar(d1.cantidad + d2.cantidad);
+        }
+
+        public static Dolar operator -(Dolar d1, Dolar d2)
+        {
+            return new Dolar(d1.cantidad - d2.cantidad);
         }
     }
 }
