@@ -53,14 +53,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej4. Lo hacemos Buffet", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3. Ahora hay que atender tambien", "Clase05 - Colecciones\Ej3. Ahora hay que atender tambien\Ej3. Ahora hay que atender tambien.csproj", "{5BFCB638-160F-46BF-BA90-642EA98CA462}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase09 - Polimorfismo", "Clase09 - Polimorfismo", "{FE3B0560-A16E-4BA4-90AF-DE0CC7319878}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Sobre-sobrescribiendo esas advertencias", "Clase09 - Polimorfismo\Ej1. Sobre-sobrescribiendo esas advertencias\Ej1. Sobre-sobrescribiendo esas advertencias.csproj", "{4C65D280-D69D-4CD2-9C42-817379099C02}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{C67DD194-E346-431B-9355-EEB06E8F2C67}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjerciciosClase2", "EjerciciosClase2\EjerciciosClase2.csproj", "{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej3. El ejemplo universal", "Clase02 - Prog. Orientada a Objetos\Ej3. El ejemplo universal\Ej3. El ejemplo universal.csproj", "{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej1. Necesito un prestamo", "Clase02 - Prog. Orientada a Objetos\Ej1. Necesito un prestamo\Ej1. Necesito un prestamo.csproj", "{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2}"
@@ -81,9 +73,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrimerFormulario", "Clase06
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "I02. Registrate", "Clase06 - WindowsForm\I02. Registrate\I02. Registrate.csproj", "{39BDED7D-4701-4B14-93D2-BAD935893BD4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ej2. Cotizador", "Clase04 - Sobrecargas\Ej2. Cotizador\Ej2. Cotizador.csproj", "{BD1E072C-F274-438D-879D-DD9BF040D0FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ej2. Cotizador", "Clase04 - Sobrecargas\Ej2. Cotizador\Ej2. Cotizador.csproj", "{BD1E072C-F274-438D-879D-DD9BF040D0FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C01. Cotizador desktop", "Clase06 - WindowsForm\C01. Cotizador desktop\C01. Cotizador desktop.csproj", "{F2107314-4C74-414B-9A1B-31C8F3BEB244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C01. Cotizador desktop", "Clase06 - WindowsForm\C01. Cotizador desktop\C01. Cotizador desktop.csproj", "{F2107314-4C74-414B-9A1B-31C8F3BEB244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,18 +163,6 @@ Global
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BFCB638-160F-46BF-BA90-642EA98CA462}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4C65D280-D69D-4CD2-9C42-817379099C02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C65D280-D69D-4CD2-9C42-817379099C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C65D280-D69D-4CD2-9C42-817379099C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C65D280-D69D-4CD2-9C42-817379099C02}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C67DD194-E346-431B-9355-EEB06E8F2C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C67DD194-E346-431B-9355-EEB06E8F2C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C67DD194-E346-431B-9355-EEB06E8F2C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C67DD194-E346-431B-9355-EEB06E8F2C67}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0EF222FF-EFD2-4740-BC28-39C0DAF5E655}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -246,7 +226,6 @@ Global
 		{96AE4889-195F-48D6-9D2E-F28BF5B1352B} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
 		{890146A4-846C-47D9-A8C0-D05C1A42E4CE} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
 		{5BFCB638-160F-46BF-BA90-642EA98CA462} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
-		{4C65D280-D69D-4CD2-9C42-817379099C02} = {FE3B0560-A16E-4BA4-90AF-DE0CC7319878}
 		{BE292F6B-F2D3-4623-B612-74CFDE83A7D1} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{2AA11B8A-E6B5-47C1-982E-D8E8CCD01FA2} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
 		{BFC17036-5F44-4058-8E8C-3ADFB8426962} = {6CED2ACC-066E-413E-B117-1AF6E49267F4}
