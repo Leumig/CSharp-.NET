@@ -12,21 +12,29 @@ namespace I01._Numeros_locos
         static void Main(string[] args)
         {
             Random random = new Random();
+            int numero;
+            int i = 0;
 
             List<int> listaDeNumeros = new List<int>();
 
-            for(int i = 0; i < 20; i++)
+            while(i < 20)
             {
-                listaDeNumeros.Add(random.Next(-100, 100));
+                numero = random.Next(-10, 10);
+                if(numero != 0)
+                {
+                    listaDeNumeros.Add(numero);
+                    i++;
+                }
             }
-            
+
+            Console.WriteLine("Lista de números");
+
             foreach (var itemLista in listaDeNumeros)
             {
                 Console.WriteLine(itemLista);
             }
 
-            Console.WriteLine("=====================");
-            Console.WriteLine("=====================");
+            Console.WriteLine("\n\nLista de números positivos (orden decreciente)");
 
             listaDeNumeros.Sort((numeroUno, numeroDos) =>
             {
@@ -41,8 +49,7 @@ namespace I01._Numeros_locos
                 }
             }
 
-            Console.WriteLine("=====================");
-            Console.WriteLine("=====================");
+            Console.WriteLine("\n\nLista de números negativos (orden creciente)");
 
             listaDeNumeros.Sort((numeroUno, numeroDos) =>
             {

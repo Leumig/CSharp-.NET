@@ -7,9 +7,9 @@ namespace Billete
     {
         static void Main(string[] args)
         {
-            Dolar cantidadDolar = new Dolar(100);
-            Euro cantidadEuro = new Euro(100);
-            Pesos cantidadPesos = new Pesos(100);
+            Dolar cantidadDolar = new Dolar(100, 1);
+            Euro cantidadEuro = new Euro(100, 1.17);
+            Pesos cantidadPesos = new Pesos(100, 102.65);
 
             var resultado1 = (Dolar)cantidadDolar;
             var resultado2 = (Dolar)cantidadEuro;

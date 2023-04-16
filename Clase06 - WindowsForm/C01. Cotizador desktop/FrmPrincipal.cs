@@ -41,95 +41,67 @@ namespace C01._Cotizador_desktop
 
         private void txt_Euro_Leave(object sender, EventArgs e)
         {
-            try
+            bool resultado = double.TryParse(txt_Euro.Text, out double cantidad);
+
+            if(resultado)
             {
-                valorEuro.SetCantidad(double.Parse(txt_Euro.Text));
-            }
-            catch
-            {
-                
-            }           
+                valorEuro.SetCantidad(cantidad);
+            }         
         }
 
         private void txt_Dolar_Leave(object sender, EventArgs e)
         {
-            try
-            {
-                valorDolar.SetCantidad(double.Parse(txt_Dolar.Text));
-            }
-            catch
-            {
-
-            }          
+            bool resultado = double.TryParse(txt_Dolar.Text, out double cantidad);
+            valorDolar.SetCantidad(cantidad);        
         }
 
         private void txt_Peso_Leave(object sender, EventArgs e)
         {
-            try
-            {
-                valorPesos.SetCantidad(double.Parse(txt_Peso.Text));
-            }
-            catch
-            {
+            bool resultado = double.TryParse(txt_Peso.Text, out double cantidad);
+            valorPesos.SetCantidad(cantidad);
 
-            }
         }
 
         private void btn_Euro_Click(object sender, EventArgs e)
         {
-            var resultadoUno = (Euro)valorEuro;
-            var resultadoDos = (Euro)valorDolar;
-            var resultadoTres = (Euro)valorPesos;
+            var resultadoUno = (Euro)valorDolar;
+            var resultadoDos = (Euro)valorPesos;
 
-            txt_EuroAEuro.Text = resultadoUno.GetCantidad().ToString();
-            txt_EuroADolar.Text = resultadoDos.GetCantidad().ToString();
-            txt_EuroAPeso.Text = resultadoTres.GetCantidad().ToString();
+            txt_EuroAEuro.Text = valorEuro.GetCantidad().ToString();
+            txt_EuroADolar.Text = resultadoUno.GetCantidad().ToString();
+            txt_EuroAPeso.Text = resultadoDos.GetCantidad().ToString();
         }
 
         private void btn_Dolar_Click(object sender, EventArgs e)
         {
             var resultadoUno = (Dolar)valorEuro;
-            var resultadoDos = (Dolar)valorDolar;
-            var resultadoTres = (Dolar)valorPesos;
+            var resultadoDos = (Dolar)valorPesos;
 
             txt_DolarAEuro.Text = resultadoUno.GetCantidad().ToString();
-            txt_DolarADolar.Text = resultadoDos.GetCantidad().ToString();
-            txt_DolarAPeso.Text = resultadoTres.GetCantidad().ToString();
+            txt_DolarADolar.Text = valorDolar.GetCantidad().ToString();
+            txt_DolarAPeso.Text = resultadoDos.GetCantidad().ToString();
         }
 
         private void btn_Peso_Click(object sender, EventArgs e)
         {
             var resultadoUno = (Pesos)valorEuro;
             var resultadoDos = (Pesos)valorDolar;
-            var resultadoTres = (Pesos)valorPesos;
 
             txt_PesoAEuro.Text = resultadoUno.GetCantidad().ToString();
             txt_PesoADolar.Text = resultadoDos.GetCantidad().ToString();
-            txt_PesoAPeso.Text = resultadoTres.GetCantidad().ToString();
+            txt_PesoAPeso.Text = valorPesos.GetCantidad().ToString();
         }
 
         private void txt_CotizEuro_Leave(object sender, EventArgs e)
         {
-            try
-            {
-                valorEuro.SetCotizacion(double.Parse(txt_CotizEuro.Text));
-            }
-            catch
-            {
-
-            }
+            bool resultado = double.TryParse(txt_CotizEuro.Text, out double cantidad);
+            valorEuro.SetCotizacion(cantidad);
         }
 
         private void txt_CotizPeso_Leave(object sender, EventArgs e)
         {
-            try
-            {
-                valorPesos.SetCotizacion(double.Parse(txt_CotizPeso.Text));
-            }
-            catch
-            {
-
-            }          
+            bool resultado = double.TryParse(txt_CotizPeso.Text, out double cantidad);
+            valorPesos.SetCotizacion(cantidad);     
         }
     }
 }
