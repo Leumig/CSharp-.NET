@@ -58,7 +58,7 @@ namespace Biblioteca_de_clases
         public abstract string Saludar(); //Método abstracto. NO puede tener cuerpo. Es sólo una firma
                                           //y está para que las clases derivadas de Persona puedan sobreescribirlo.
 
-
+        
 
     }
 

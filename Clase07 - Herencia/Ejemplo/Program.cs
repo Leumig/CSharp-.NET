@@ -20,9 +20,6 @@ namespace Ejemplo
 
             Console.WriteLine("============================================");
             Console.WriteLine(alumnoUno.Saludar());
-
-
-
         }
     }
 }
