@@ -12,6 +12,8 @@ namespace Ej4._Lo_hacemos_Buffet
             string datoIngresadoString = "";
             int opcionIngresada = 0;
 
+            Dictionary<int, Stack<Producto>> maquinaExpendedora = new Dictionary<int, Stack<Producto>>();
+
             //Creo la fila
             Queue<string> filaClientes = new Queue<string>();
             filaClientes.Enqueue("Miguel");
@@ -92,7 +94,7 @@ namespace Ej4._Lo_hacemos_Buffet
             #endregion
 
             //Creo una lista de los productos que va seleccionando cada cliente
-            List<Producto> listaPedidoDelCliente = new List<Producto>();    
+            List<Producto> listaPedidoDelCliente = new List<Producto>();
 
             while (mesaBuffet.Count > 0 && filaClientes.Count > 0 && datoIngresadoString != "s" && datoIngresadoString != "S")
             {
@@ -106,7 +108,7 @@ namespace Ej4._Lo_hacemos_Buffet
                 foreach (Producto itemProducto in mesaBuffet)
                 {
                     Console.WriteLine($"{indice}) Producto: {itemProducto.Nombre} | " +
-                        $"Precio: {itemProducto.Precio} | Cantidad: {mesaBuffet[indice].C} |");
+                        $"Precio: {itemProducto.Precio} | Cantidad: {mesaBuffet[indice]} |");
                 }
 
                 Console.ForegroundColor = ConsoleColor.Yellow;

@@ -29,9 +29,9 @@ namespace C02._Vulcano
             var resultadoUno = (Celsius)temperaturaFahrenheit;
             var resultadoDos = (Kelvin)temperaturaFahrenheit;
 
-            txt_FahrAFahr.Text = temperaturaFahrenheit.Temperatura.ToString();
-            txt_FahrACels.Text = resultadoUno.Temperatura.ToString();
-            txt_FahrAKel.Text = resultadoDos.Temperatura.ToString();
+            txt_FahrAFahr.Text = temperaturaFahrenheit.Temperatura.ToString("0.000");
+            txt_FahrACels.Text = resultadoUno.Temperatura.ToString("0.000");
+            txt_FahrAKel.Text = resultadoDos.Temperatura.ToString("0.000");
         }
 
         private void btn_Celsius_Click(object sender, EventArgs e)
@@ -39,9 +39,9 @@ namespace C02._Vulcano
             var resultadoUno = (Fahrenheit)temperaturaCelsius;
             var resultadoDos = (Kelvin)temperaturaCelsius;
 
-            txt_CelsAFahr.Text = resultadoUno.Temperatura.ToString();
-            txt_CelsACels.Text = temperaturaCelsius.Temperatura.ToString();
-            txt_CelsAKel.Text = resultadoDos.Temperatura.ToString();
+            txt_CelsAFahr.Text = resultadoUno.Temperatura.ToString("0.000");
+            txt_CelsACels.Text = temperaturaCelsius.Temperatura.ToString("0.000");
+            txt_CelsAKel.Text = resultadoDos.Temperatura.ToString("0.000");
         }
 
         private void btn_Kelvin_Click(object sender, EventArgs e)
@@ -49,9 +49,9 @@ namespace C02._Vulcano
             var resultadoUno = (Fahrenheit)temperaturaKelvin;
             var resultadoDos = (Celsius)temperaturaKelvin;
 
-            txt_KelAFahr.Text = resultadoUno.Temperatura.ToString();
-            txt_KelACels.Text = resultadoDos.Temperatura.ToString();
-            txt_KelAKel.Text = temperaturaKelvin.Temperatura.ToString();
+            txt_KelAFahr.Text = resultadoUno.Temperatura.ToString("0.000");
+            txt_KelACels.Text = resultadoDos.Temperatura.ToString("0.000");
+            txt_KelAKel.Text = temperaturaKelvin.Temperatura.ToString("0.000");
         }
 
         private void txt_TempFahrenheit_TextChanged(object sender, EventArgs e)

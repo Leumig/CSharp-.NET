@@ -38,7 +38,6 @@ namespace Librería_de_Clases
             get { return precio; }
             set { precio = value; }
         } 
-
         public int Codigo
         {
             get
@@ -46,6 +45,5 @@ namespace Librería_de_Clases
                 return codigo;
             }
         }
-
     }
 }
