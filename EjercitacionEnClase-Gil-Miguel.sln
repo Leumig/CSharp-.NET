@@ -85,15 +85,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C02. Vulcano", "Clase06 - W
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clase07 - Herencia", "Clase07 - Herencia", "{4A68D0A8-9A85-492B-A41D-332BA98B021A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca de clases", "Clase07 - Herencia\Biblioteca de clases\Biblioteca de clases.csproj", "{461E69D2-87AF-4A3E-90D9-576F80382CF7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biblioteca de clases", "Clase07 - Herencia\Biblioteca de clases\Biblioteca de clases.csproj", "{461E69D2-87AF-4A3E-90D9-576F80382CF7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplo", "Clase07 - Herencia\Ejemplo\Ejemplo.csproj", "{E0B00F90-0E12-4559-855D-8AD0977D2F30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejemplo", "Clase07 - Herencia\Ejemplo\Ejemplo.csproj", "{E0B00F90-0E12-4559-855D-8AD0977D2F30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C01. Herencia deportiva", "Clase07 - Herencia\C01. Herencia deportiva\C01. Herencia deportiva.csproj", "{65FDEE51-98DF-4EEA-B39D-8C3D88E80175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C01. Herencia deportiva", "Clase07 - Herencia\C01. Herencia deportiva\C01. Herencia deportiva.csproj", "{65FDEE51-98DF-4EEA-B39D-8C3D88E80175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases deportivas", "Clase05 - Colecciones\Clases deportivas\Clases deportivas.csproj", "{4F0C56BE-2B3D-49C9-9981-BDC4DE6ACE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clases deportivas", "Clase05 - Colecciones\Clases deportivas\Clases deportivas.csproj", "{4F0C56BE-2B3D-49C9-9981-BDC4DE6ACE80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C01. Estadistica Deportiva", "Clase05 - Colecciones\C01. Estadistica Deportiva\C01. Estadistica Deportiva.csproj", "{248BAF11-7F3E-4C0D-BC48-EE29335EF44B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C01. Estadistica Deportiva", "Clase05 - Colecciones\C01. Estadistica Deportiva\C01. Estadistica Deportiva.csproj", "{248BAF11-7F3E-4C0D-BC48-EE29335EF44B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I03. A contar palabras", "Clase05 - Colecciones\I03. A contar palabras\I03. A contar palabras.csproj", "{04E44E2B-767B-43AE-BEB3-F26D905457C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -253,6 +255,10 @@ Global
 		{248BAF11-7F3E-4C0D-BC48-EE29335EF44B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{248BAF11-7F3E-4C0D-BC48-EE29335EF44B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{248BAF11-7F3E-4C0D-BC48-EE29335EF44B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E44E2B-767B-43AE-BEB3-F26D905457C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E44E2B-767B-43AE-BEB3-F26D905457C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E44E2B-767B-43AE-BEB3-F26D905457C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E44E2B-767B-43AE-BEB3-F26D905457C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -294,6 +300,7 @@ Global
 		{65FDEE51-98DF-4EEA-B39D-8C3D88E80175} = {4A68D0A8-9A85-492B-A41D-332BA98B021A}
 		{4F0C56BE-2B3D-49C9-9981-BDC4DE6ACE80} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
 		{248BAF11-7F3E-4C0D-BC48-EE29335EF44B} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
+		{04E44E2B-767B-43AE-BEB3-F26D905457C8} = {7A6EFB21-CB6B-422D-B895-F7745FEF3062}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AA931176-7374-4DCC-BE7C-E2E932B687CF}
